@@ -2,9 +2,10 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node express",
+    "dev": "nodemon express"
   },
   "author": "",
   "license": "ISC",
@@ -12,3 +13,4 @@
     "express": "^4.16.4"
   }
 }
+
