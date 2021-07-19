@@ -19,20 +19,35 @@
   </head>
 
   <body>
+
+    <!-- Navigation -->
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="/">Note Taker </a>
+
       <div class="icons">
-        <i class="fas fa-save text-light save-note"></i>
-        <i class="fas fa-plus text-light new-note"></i>
+        <!-- save-note -->
+        <button type = "button" class="btn btn-link"><i class="fas fa-save text-light save-note"></i></button>
+        <!-- new-note -->
+        <button type = "button" class="btn btn-link"><i class="fas fa-plus text-light new-note"></i></button>
       </div>
-    </nav>
+
+    </nav><!-- End of Navigation -->
+
     <div class="container-fluid">
+
       <div class="row">
+
+        <!-- This is where the notes will be created -->
         <div class="col-4 list-container">
+
+          <!-- This is where the note titles will display -->
           <div class="card">
             <ul class="list-group"></ul>
           </div>
+
         </div>
+
+        <!-- This is the form where new notes will be added -->
         <div class="col-8">
           <input
             class="note-title"
@@ -42,8 +57,12 @@
           />
           <textarea class="note-textarea" placeholder="Note Text"></textarea>
         </div>
-      </div>
-    </div>
-    <script src="/assets/js/index.js"></script>
+
+      </div><!-- End of Row -->
+
+    </div><!-- End of Container -->
+
+  <script src="/assets/js/index.js"></script>
   </body>
+
 </html>
