@@ -1,17 +1,15 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Keep notes with Express and save to JSON file",
   "main": "express.js",
   "scripts": {
-    "start": "node express",
-    "dev": "nodemon express"
+    "start": "node express.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "nodemon": "^2.0.12",
     "uid": "^2.0.0"
   }
 }
